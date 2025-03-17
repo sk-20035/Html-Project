@@ -1,0 +1,620 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+  *{
+    margin:0;
+    padding: 0%;
+} 
+
+.navbar {
+  width: 100px;
+  height: 50px;
+color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+   padding:15px 20px; 
+   padding-top: 15px;
+  font-size: 30px;
+  
+}
+
+.mar-left{
+    
+    margin-left:0;
+}
+.pd-top{
+    padding-top: 25px;
+}
+a{
+    /* text-decoration: none; */
+     color: rgb(0, 0, 0); 
+    padding-top: 10px;
+     font-size: large;
+    padding-left: 10px;
+    list-style: none;
+    padding-right: 10px;
+    /* text-transform:capitalize; */
+} 
+.menu{
+   display:flex;
+    position: relative;
+    left: 250px;
+    list-style: none;
+    color: black;
+    bottom: 35px;
+}
+.menu:hover, .menu2 :hover{
+    
+    color: linear-gradient(0deg, rgb(131, 228, 21) 0%, rgb(5, 17, 12) 14%, rgba(229,233,45,1) 79%);
+     border: radius 0;
+     border:none;
+     
+}
+.menu2{
+display:flex;
+    position: relative;
+    left: 180px;
+    bottom: 500px;
+    top: 0;
+    list-style: none;
+}
+.photo{
+    margin: 0%;
+    background-image:url(uomo/slideshow-pattern.png);
+    background-color: #f3cebd;
+   padding-right: 80px;
+ 
+    width:1000;
+    height:750px;
+}
+.text{
+    margin-left: 50px;
+    font-size: 75px;
+   
+    margin-right: 80px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.girl{
+ width:520px;
+    height: 420px; 
+   padding-left: 25px;
+   text-transform: uppercase !important;
+}
+.h1{
+ position: relative; 
+bottom:120px;
+font-size: 15px;
+font-style: normal;
+font-style:oblique;
+text-transform: uppercase !important;
+padding-left: 60px;
+
+}
+.boy{
+    width: 390px;
+    position: relative;
+    height: 225px;
+    margin-left:680px;
+   bottom: 460px; 
+   padding-left:30px;
+   
+}
+.h2{
+font-size: 15px;
+bottom: 80px;
+font-style:normal;
+font-style:oblique;
+position: relative;
+right: 100px;
+text-transform: uppercase !important;
+
+
+}
+.kids{
+    width: 225px;
+    height: 226px;
+    right: 35px;
+  top: 25px;
+    position: relative;
+}
+.h3{
+    font-size:15px;
+    bottom: 80px;
+    padding-left: 6px;
+    font-style: normal;
+    font-style:oblique;
+    position: relative;
+    text-transform: uppercase !important;
+}
+.ecart{
+    width: 225px;
+    
+    height: 225px;
+    position: relative;
+    margin-left: 255px;
+    bottom: 210px;
+    left: 20px;
+}
+.h4{
+    font-size: 25px;
+    font-style:normal;
+    font-style:oblique;
+    position: relative;
+    bottom: 180px;
+    padding-top: 10px;
+    text-transform: uppercase !important;
+    padding-left: 45px;
+}
+.h5{
+    font-size: 15px;
+    font-style: normal;
+    font-style:oblique;
+    position: relative;
+    padding-top: 20px;
+   
+}
+.our{
+    font-size:45px;
+    text-align: center;
+    position: absolute;
+    padding-top: 90px;
+    padding-left: 380px;
+    font-weight: bold;
+    font-style:oblique;
+
+}
+.pro{
+    font-size: 10PX;
+    position: relative;
+    font-style:oblique;
+    display: flex;
+    padding-top: 20PX;
+   justify-content: space-around;
+}
+.all{
+    width:270;
+    height: 300px;
+    padding-top: 130px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    position:absolute;
+   text-align: center; 
+   font-style:oblique;
+}
+.more{
+    font-size: 10px;
+    position: absolute;
+    font-style:oblique;
+
+    display: flex;
+    padding-top: 530px;
+    list-style: none;
+    margin-left: 570px;
+    text-align: center;
+  
+}
+.deal{
+ 
+display: flex;
+padding-top: 600px;
+padding-left: 10px;
+padding-right: 10px;
+height: 300px;
+}
+.textp{
+    font-size: 20px;
+    position:absolute;
+    display: flex;
+    color: red;
+    font-style:oblique;
+     padding-left: 40px;
+    padding-top: 230px;
+}
+.sb{
+    font-size: 45px;
+    color: black;
+    position:absolute;
+    font-style:oblique;
+    display: flex;
+    padding-bottom: 60px;
+    margin-left:60px;
+ 
+
+}
+.now{
+    font-size:15px ;
+    font-style: normal;
+    padding-top:120px;
+    margin-left: 60px;
+    position: absolute;
+    display: flex;
+    font-style:oblique;
+}
+.start{
+    position: relative;
+    display: flex;
+    padding-top: 300px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+  
+}
+.end{
+    font-size:15px ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    padding-top: 215px;
+    font-style:oblique;
+    padding-left: 15px;
+}
+.end1{
+    font-size:20px ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-style:oblique;
+    display: flex;
+    padding-top: 265px;
+    padding-left: 15px;
+}
+.end2{
+    font-size:20px ;
+    font-style:oblique;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    padding-top: 305px;
+    padding-left: 15px;
+}
+.start1{
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+  
+}
+.end{
+    font-size:15px ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    padding-top: 215px;
+    padding-left: 15px;
+}
+.end3{
+    font-size:20px ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    font-style:oblique;
+    padding-top: 265px;
+    padding-left: 15px;
+}
+.end4{
+    font-size:20px ;
+    font-style:oblique;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    padding-top: 305px;
+    padding-left: 15px;
+}
+.add{
+    font-size: 15px;
+    font-weight: bold;
+    font-style:oblique;
+    text-align: center;
+    padding-top: 120px;
+}
+.back{
+padding-top: 30px;
+position:relative;
+display: flex;
+margin-left:40px;
+font-style:oblique;
+margin-right:10px;
+justify-content: space-between;
+}
+.uomo{
+text-align: center;
+font-size: 15px;
+font-size: 25px;
+padding-top:40px;
+font-weight: bold;
+
+}
+.insta{
+    position:relative;
+    display: block;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+ .overplay {
+	position: relative;
+} 
+.overplay::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(204, 190, 190, 0.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 10;
+}
+.overplay:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+.cash{
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 70px;
+    margin-left: 90px;
+}
+.cash1{
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.cash3{
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+    padding-left:410px;
+    text-align: center;
+   padding-bottom:00px;
+}
+.sell{
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    padding-top: 15px;
+   margin-left: 80px;
+   
+}
+.free{
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    padding-top:35px;
+   padding-right: 0px;
+ 
+   
+}
+.call{
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    padding-top: 0px;
+   margin-left:525px; 
+   padding-bottom: 40px;
+}
+.call1{
+    font-size: 10px;
+    position:relative;
+    display: flex;
+    padding-top: 20px;
+   margin-left: 100px;
+}
+
+
+
+ 
+</style>
+
+<body></p>
+<div class="navbar">
+    <div class="a">
+    
+    <p><img src="uomo/logo2.png" alt=""width="100"></p>
+    <ul class="menu">
+  
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#">HOME</a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#">SHOP</a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#">BLOG</a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#">PAGE</a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/about.html">ABOUT</a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/contact.html">CONTACT</a></li>
+    
+    <ul class="menu2">
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#"><img src="uomo/serch.jpg" alt=""width="25"height="25"></a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#"><img src="uomo/user.png" alt=""width="25"height="25"></a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/account_wishlist.html"><img src="uomo/heart.png" alt=""width="25"height="25"></a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#"><img src="uomo/user.png" alt=""width="25"height="25"></a></li>
+    <li><a href="https://uomo-html.flexkitux.com/Demo1/index.html#"><img src="uomo/nav.png" alt=""width="25"height="25"></a></li>
+    </ul>
+</ul>
+</div>
+</div>
+ 
+ <div class="photo">
+    <p><img src="uomo/slideshow-character1.png" alt="" align="right"></p>
+  
+
+
+<div class="text">   
+<p>----New trends</p>
+<p>Summer Sale Stylish</p>
+<p>woman</p>
+<p>Discover more</p>
+</div>
+ </div><br>
+ <br>
+
+<div class="girl">
+    <img src="uomo/collection_grid_1.jpg" alt=""align="left"width="550px"height="480">
+    
+<div class="h1">   
+<h1>Hot list</h1>
+<h1>Woman collection</h1>
+<h1>Shop now</h1>
+
+<div class="boy">
+<img src="uomo/collection_grid_2.jpg" alt=""align="right"width="525px"height="226px">
+    <div class="h2">
+        <h2>HOT LIST</h2>
+        <H2>MEN COLLECTION</H2>
+        <H2>SHOP NOW</H2>
+
+    <div class="kids">
+        <img src="uomo/collection_grid_3 (1).jpg" alt=""width="240px"height="225px">
+        <div class="h3">
+            <h3>Hot list</h3>
+            <H3>KIDS COLLECTION</H3>
+            <H3>SHOP NOW</H3>
+    <div class="ecart">
+        <img src="uomo/box.png" alt=""width="240px"height="225px">
+        <div class="h4">
+            <h4>E-Gift cart</h4>
+            <div class="h5">
+            <h5>surprise someone with the gift they</h5><br>
+            <h5>relly want</h5><br>
+            <h5>shop now</h5><br>
+        </div>    
+        </div>
+    </div>
+</div>
+</div>
+    </div></div></div></div>
+
+<div class="our">
+    <div>OUR TRENDY PRODUCTS</div>
+    <div class="pro">
+        <h1>ALL</h1>
+        <h1>NEW ARRIVALS</h1>
+        <h1>BEST SELLER</h1>
+        <h1>TOP RATED</h1>
+    </div>
+</div><br><br><br><br>
+<div class="all">
+
+        <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product_3.jpg" alt=""width="270"height="300">add to cart</h1>
+        <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product_7.jpg" alt=""width="270"height="300">add to cart</h1>
+       <h1> <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product_6.jpg" alt=""width="270"height="300">add to cart</h1>
+    <H1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product_3-1.jpg" alt=""width="270px"height="300px">add to cart</H1>
+        </div>
+      </div>
+
+      <div class="more">
+        <li><a href="https://uomo-html.flexkitux.com/Demo1/shop1.html">discover more</a></li>
+      </div>
+
+<div class="deal">
+    <img src="uomo/deal_timer_bg.jpg" alt=""width="1250px"height="500px">
+    <div class="textp">
+            <h1>----Deal of the week</h1>
+  
+</div>
+</div>
+<div class="sb">
+    <h1>spring collection</h1>
+   
+</div>  
+<div class="now">
+    <h1>shop now</h1>
+</div>
+
+<div class="start">
+    <img src="uomo/banner_1.jpg" alt=""width="540px"height="398px">
+    <div class="end">
+        <h1>starting at $19</h1>
+    </div>
+    <div class="end1">
+        <h2>Woman'S T-shirt</h2>
+    </div>
+    <div class="end2">
+        <h2>shop now</h2>
+    </div>
+
+   <div class="start1">
+    <img src="uomo/banner_2.jpg" alt=""width="540px"height="398px">
+    <div class="end">
+        <h1>starting at $39</h1>
+    </div>
+    <div class="end3">
+        <h2>men'S T-shirt</h2>
+    </div>
+    <div class="end4">
+        <h2>shop now</h2>
+    </div>
+</div></div>
+
+<div class="add">
+    <h1>Limited Edition</h1>
+</div>
+
+<div class="back">
+    <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product-3-1.jpg" alt=""width="260px"height="300px">add to cart</h1>
+   <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product-0-1.jpg" alt=""width="260px"height="300px">add to cart</h1>
+    <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product-1-1.jpg" alt=""width="260px"height="300px">add to cart</h1>
+    <h1><img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/product-2-1.jpg" alt=""width="260px"height="300px">add to cart</h1>
+    
+
+</div>
+
+<div class="uomo">@UOMO</div>
+
+<div class="insta">
+    <div class="overplay">
+        <div class="overplay:hover:before">
+
+      
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta1.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta2.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta3.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta4.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta5.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta6.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta7.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta8.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta9.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta10.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta11.jpg" alt=""width="180px"height="180px">
+    <img src="uomo/Home v1 _ Uomo eCommerce HTML5 Template_files/insta12.jpg" alt=""width="180px"height="180px">
+
+</div></div></div><br><br><br><br>
+ 
+<div class="cash">
+    <h1><img src="uomo/trolly.png" alt=""width="40px"></h1><br><br>
+    <div class="cash3">
+        <h3><img src="uomo/call24" alt=""width="40px"></h3>
+    <div class="cash3">
+        <h3><img src="uomo/shiled.jpg" alt=""width="40px"></h3>
+    </div></div></div>
+<div class="sell">
+    <h1>fast and free delivary</h1>
+<div class="free">
+    <h2>Free delivery for all orders over $140</h2>
+</div></div>
+<div class="call">
+    <h1>24/7 Customer Support</h1>
+<div class="call1">       
+ <h1>Friendly 24/7 customer support</h1>
+</div>
+</div></div></div>
+</body>
+</html>
